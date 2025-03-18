@@ -9,7 +9,7 @@ class Solution {
         int high=n-1;
         int ans=n;
         while(low<=high){
-            int mid=low + (high-low)/2;
+            int mid=low + (high-low)/2; 
             if(nums[mid]>=target){          //or (target<=nums[mid])
                 ans=mid;
                 high=mid-1;
